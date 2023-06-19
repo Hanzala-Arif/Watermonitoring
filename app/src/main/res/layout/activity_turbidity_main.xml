@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".turbidity_main">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_149sdp"
+        android:background="@drawable/wave"
+        android:backgroundTint="#39DBF1">
+
+        <!--            <Button-->
+        <!--                android:id="@+id/button"-->
+        <!--                android:layout_width="@dimen/_32sdp"-->
+        <!--                android:layout_height="@dimen/_23sdp"-->
+        <!--                android:layout_alignParentEnd="true"-->
+        <!--                android:layout_alignParentBottom="true"-->
+        <!--                android:layout_marginEnd="@dimen/_10sdp"-->
+        <!--                android:layout_marginBottom="@dimen/_100sdp"-->
+        <!--                android:background="@drawable/menuitem" />-->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/_164sdp"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/_87sdp"
+            android:layout_marginBottom="@dimen/_76sdp"
+            android:background="#82D6E1"
+            android:fontFamily="@font/baloo"
+            android:text="        Turbidity"
+            android:textColor="#03A9F4"
+            android:textSize="@dimen/_22sdp" />
+
+    </RelativeLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="match_parent"
+
+        android:layout_height="@dimen/_190sdp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+        app:layout_constraintVertical_bias="0.297"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/turbidity_water"
+        tools:ignore="MissingConstraints">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/progressBar2"
+        style="@style/SpinKitView.Large.Pulse"
+        android:layout_width="@dimen/_61sdp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        app:SpinKit_Color="#FF00BCD4"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

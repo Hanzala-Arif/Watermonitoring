@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notification_Values">
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_149sdp"
+        android:background="@drawable/wave"
+        android:backgroundTint="#39DBF1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--            <Button-->
+        <!--                android:id="@+id/button"-->
+        <!--                android:layout_width="@dimen/_32sdp"-->
+        <!--                android:layout_height="@dimen/_23sdp"-->
+        <!--                android:layout_alignParentEnd="true"-->
+        <!--                android:layout_alignParentBottom="true"-->
+        <!--                android:layout_marginEnd="@dimen/_10sdp"-->
+        <!--                android:layout_marginBottom="@dimen/_100sdp"-->
+        <!--                android:background="@drawable/menuitem" />-->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/_124sdp"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/_87sdp"
+            android:layout_marginBottom="@dimen/_76sdp"
+            android:background="#82D6E1"
+            android:fontFamily="@font/baloo"
+            android:text="   Notification"
+            android:textColor="#03A9F4"
+            android:textSize="@dimen/_20sdp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_410sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout5"
+        app:layout_constraintVertical_bias="0.051">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp">
+
+            <TextView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_110sdp"
+                android:layout_marginTop="0dp"
+                android:background="#00BCD4"
+                android:fontFamily="@font/baloo"
+                android:text="        Level"
+                android:textColor="#F4F1F1"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/_150sdp"
+                android:layout_marginEnd="123dp"
+                android:layout_marginBottom="22dp"
+                android:background="#FCFFFF"
+                android:fontFamily="@font/baloo"
+                android:textColor="#050505"
+                android:textSize="@dimen/_20sdp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/_175sdp"
+                android:layout_marginEnd="@dimen/_27sdp"
+                android:layout_marginBottom="22dp"
+                android:background="#FCFFFF"
+                android:fontFamily="@font/baloo"
+                android:textColor="#050505"
+                android:textSize="@dimen/_25sdp">
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_30sdp">
+
+            <TextView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_110sdp"
+                android:layout_marginTop="0dp"
+                android:background="#00BCD4"
+                android:fontFamily="@font/baloo"
+                android:text="  Turbidity"
+                android:textColor="#F4F1F1"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/_150sdp"
+                android:layout_marginEnd="123dp"
+                android:layout_marginBottom="22dp"
+
+                android:background="#FCFFFF"
+                android:fontFamily="@font/baloo"
+                android:textColor="#050505"
+                android:textSize="@dimen/_20sdp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/_175sdp"
+                android:layout_marginEnd="@dimen/_27sdp"
+                android:layout_marginBottom="22dp"
+                android:background="#FCFFFF"
+                android:fontFamily="@font/baloo"
+                android:textColor="#050505"
+                android:textSize="@dimen/_25sdp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_30sdp">
+
+            <TextView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_110sdp"
+                android:layout_marginTop="0dp"
+                android:background="#00BCD4"
+                android:fontFamily="@font/baloo"
+                android:text="    pH-Value"
+                android:textColor="#F4F1F1"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/_150sdp"
+                android:layout_marginEnd="123dp"
+                android:layout_marginBottom="22dp"
+
+                android:background="#FCFFFF"
+                android:fontFamily="@font/baloo"
+                android:textColor="#050505"
+                android:textSize="@dimen/_20sdp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/_175sdp"
+                android:layout_marginEnd="@dimen/_27sdp"
+                android:layout_marginBottom="22dp"
+                android:background="#FCFFFF"
+                android:fontFamily="@font/baloo"
+                android:textColor="#050505"
+                android:textSize="@dimen/_25sdp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Turbidity">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_491sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:background="@drawable/wave"
+            android:backgroundTint="#2ADAF1">
+
+
+            <!--            <Button-->
+            <!--                android:id="@+id/button"-->
+            <!--                android:layout_width="@dimen/_32sdp"-->
+            <!--                android:layout_height="@dimen/_23sdp"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:layout_alignParentBottom="true"-->
+            <!--                android:layout_marginEnd="@dimen/_10sdp"-->
+            <!--                android:layout_marginBottom="@dimen/_100sdp"-->
+            <!--                android:background="@drawable/menuitem"-->
+
+            <!--                android:onClick="popup"-->
+            <!--                android:pointerIcon="context_menu" />-->
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="164dp"
+                android:layout_height="58dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="126dp"
+                android:layout_marginBottom="21dp"
+                android:background="#82D6E1"
+                android:fontFamily="@font/baloo"
+                android:text="   Turbidity"
+                android:textColor="#03A9F4"
+                android:textSize="33sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_marginTop="@dimen/_15sdp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_128sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp">
+
+                <com.ekn.gruzer.gaugelibrary.HalfGauge
+                    android:id="@+id/meter"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_93sdp"
+                    android:background="#E4E0E0"
+                    android:backgroundTintMode="screen"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.073" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/_128sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp">
+
+                <com.ekn.gruzer.gaugelibrary.ArcGauge
+                    android:id="@+id/meter3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_92sdp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginTop="2dp"
+                    android:background="#E4E0E0" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#82D6E1"
+                android:backgroundTint="#82D6E1"
+                android:backgroundTintMode="screen" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_23sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_100sdp"
+        android:background="@drawable/menuitem"
+        android:onClick="open"
+        tools:ignore="MissingConstraints"></Button>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="#3BC3D5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/items" />
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="275dp"
+        android:layout_height="735dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:menu="@menu/drawers">
+        </com.google.android.material.navigation.NavigationView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

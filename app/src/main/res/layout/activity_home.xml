@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF2F6"
+    tools:context=".Home">
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button3"-->
+    <!--        android:layout_width="193dp"-->
+    <!--        android:layout_height="54dp"-->
+    <!--        android:layout_marginTop="212dp"-->
+    <!--        android:background="@drawable/button_design"-->
+
+    <!--        android:onClick="ph"-->
+    <!--        android:text="Ph-Sensor"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.522"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button">-->
+
+    <!--    </Button>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button2"-->
+    <!--        android:layout_width="193dp"-->
+    <!--        android:layout_height="54dp"-->
+    <!--        android:layout_marginTop="88dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:onClick="Turbidity"-->
+    <!--        android:text="Turbidity"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/button3"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.522"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button"-->
+    <!--        app:layout_constraintVertical_bias="0.0">-->
+
+    <!--    </Button>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="193dp"-->
+    <!--        android:layout_height="54dp"-->
+    <!--        android:layout_marginTop="264dp"-->
+    <!--        android:background="@drawable/button_design"-->
+    <!--        android:onClick="distance"-->
+    <!--        android:text="Distance"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.502"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/textView">-->
+
+    <!--    </Button>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        tools:ignore="Orientation">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/wave"
+                android:backgroundTint="#00BCD4">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="@dimen/_278sdp"
+                android:layout_height="@dimen/_42sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="19dp"
+
+                android:layout_marginBottom="151dp"
+                android:fontFamily="@font/baloo"
+                android:text="   Water Monitoring"
+                android:textColor="#FAF5F5"
+                android:textSize="@dimen/_30sdp">
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_height="@dimen/_100sdp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_design"
+                    android:backgroundTint="#00BCD4"
+                    android:fontFamily="@font/baloo"
+                    android:onClick="distance"
+                    android:pointerIcon="arrow"
+                    android:text="Level"
+                    android:textColor="#F6F3F3"
+                    android:textSize="20sp">
+
+                </Button>
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/button_design"
+                android:backgroundTint="#00BCD4"
+                android:fontFamily="@font/baloo"
+                android:onClick="Turbidity"
+                android:text="Turbidity"
+                android:textColor="#FAF6F6"
+                android:textSize="20sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_height="@dimen/_100sdp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_design"
+                    android:backgroundTint="#00BCD4"
+                    android:fontFamily="@font/baloo"
+                    android:onClick="ph"
+                    android:text="PH"
+                    android:textColor="#F8F4F4"
+                    android:textSize="20sp">
+
+                </Button>
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/button_design"
+                android:backgroundTint="#00BCD4"
+                android:fontFamily="@font/baloo"
+                android:onClick="Logout"
+                android:text="Logout"
+                android:textColor="#FAF8F8"
+                android:textSize="20sp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/wave__1_"
+            android:backgroundTint="#00BCD4"
+            android:orientation="vertical"></LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

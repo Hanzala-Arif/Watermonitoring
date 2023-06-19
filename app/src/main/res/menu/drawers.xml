@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single">
+        <item android:title="Level"
+            android:icon="@drawable/l2"
+            android:onClick="distance"
+            />
+        <item android:title="Turbidity"
+            android:icon="@drawable/t2"
+            android:onClick="tur"
+            />
+        <item android:title="Ph-Sensor"
+android:icon="@drawable/ph2"
+            android:onClick="ph"
+            />
+        <item android:title="Logout"
+            android:icon="@drawable/logout"
+            android:onClick="Logout"
+            />
+    </group>
+</menu>

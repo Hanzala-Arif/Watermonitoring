@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "565681795921",
+    "firebase_url": "https://notification-56c0a-default-rtdb.firebaseio.com",
+    "project_id": "notification-56c0a",
+    "storage_bucket": "notification-56c0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565681795921:android:91aafd801364e27c4f9970",
+        "android_client_info": {
+          "package_name": "com.example.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565681795921-49oa7cdhmq90isfsp8fd1aku96n5elnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_w32_QtKNznx1_O55ylNqbOqUCG_jJSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565681795921-49oa7cdhmq90isfsp8fd1aku96n5elnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565681795921:android:02a2fd8774da36d44f9970",
+        "android_client_info": {
+          "package_name": "com.example.watermonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565681795921-49oa7cdhmq90isfsp8fd1aku96n5elnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_w32_QtKNznx1_O55ylNqbOqUCG_jJSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565681795921-49oa7cdhmq90isfsp8fd1aku96n5elnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
